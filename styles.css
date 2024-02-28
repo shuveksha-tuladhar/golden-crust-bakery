@@ -72,7 +72,7 @@ nav ul li a:hover {
 }
 
 .home {
-    background-image: url('/Bakery/images/bg_home.jpg'); 
+    background-image: url('images/bg_home.jpg'); 
     background-size: cover; 
     background-position: center;
     text-align: left;
