@@ -1,0 +1,248 @@
+
+body, h1, h2, h3, p, ul, li, button, input, textarea {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    }
+
+header {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    background-position: center;
+    background: white;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 150px;
+    
+}
+
+.logo img {
+    max-width: 100%; 
+    max-height: 100%; 
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+nav {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    height: 30px;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background: linear-gradient(90deg, rgba(255,137,131,1) 0%, rgba(213,153,64,1) 35%, rgba(255,137,131,1) 100%);
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    padding: 20px 20px;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+.home {
+    background-image: url('/Bakery/images/bg_home.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    text-align: left;
+    padding: 100px;
+    text-wrap: wrap;
+    }
+
+  .home h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .home p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    text-align: left;
+    text-wrap: wrap;
+  }
+  .home-title{
+    width: 50%;
+  }
+  
+  .order-button {
+    background-color:  rgba(255,137,131,1); 
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+  }
+  
+  .order-button:hover {
+    background-color: rgba(213,153,64,1)
+  }
+
+section {
+    padding: 50px 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#location {
+    background-image: linear-gradient(to bottom, #ffe4b5, #ffe4b5);
+}
+
+#menu {
+    background-image: linear-gradient(to bottom, #ffe4b5, #ffe4b5);
+}
+
+#about {
+    background-image: linear-gradient(to bottom, #ffe4b5, #ffe4b5);
+}
+
+#contact, #inquiry {
+    background-image: linear-gradient(to bottom,#ffe4b5, #ffe4b5);
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.menu-options {
+    text-align: center;
+}
+
+.menu-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+   
+}
+.menu-image{
+    height: 300px;
+}
+.menu-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.menu-item:hover {
+    transform: translateY(-5px);
+}
+
+/* .menu-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover; 
+    border-radius: 5px 5px 0 0;
+} */
+
+.menu-item h3 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.menu-item p {
+    margin-top: 5px;
+    font-size: 14px;
+}
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    display: block;
+    width: 200px;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: rgba(255,137,131,1);
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: rgba(213,153,64,1);
+}
+
+footer {
+    background: linear-gradient(90deg, rgba(255,137,131,1) 0%, rgba(213,153,64,1) 35%, rgba(255,137,131,1) 100%);
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 20px;
+}
