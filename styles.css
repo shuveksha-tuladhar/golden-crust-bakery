@@ -239,10 +239,38 @@ footer {
     background: linear-gradient(90deg, rgba(255,137,131,1) 0%, rgba(213,153,64,1) 35%, rgba(255,137,131,1) 100%);
     color: #fff;
     text-align: center;
-    padding: 30px;
+    padding: 20px;
     margin-top: 20px;
-}
+    height: 30px;
+  }
 
 footer p {
     font-size: 20px;
 }
+
+@media screen and (max-width: 1024px) {
+    footer p {
+        padding: 2.5px;
+    }
+  }
+
+  /* Laptops or Small Screens */
+  @media screen and (max-width: 1024px) {
+    footer p {
+         padding: 5px;
+            }
+  }
+
+  /* iPads or Tablets */
+  @media screen and (max-width: 768px) {
+    footer p {
+         padding: 10px;
+    }
+  }
+
+  /* Mobile Devices */
+  @media screen and (max-width: 481px) {
+    footer p {
+          padding: 20px;
+    }
+  }
